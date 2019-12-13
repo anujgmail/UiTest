@@ -33,10 +33,7 @@ class UiTestUITests: XCTestCase {
         app.buttons["Button2"].tap()
         //sleep(2)
 
-        let asdf = app.textFields["textfield"]
-        asdf.tap()
-        asdf.typeText("asdfasfaasfasfasfa")
-        app.buttons["Button3"].tap()
+
 
 
         //sleep(1)
@@ -46,6 +43,19 @@ class UiTestUITests: XCTestCase {
 
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+
+    func testSecond() {
+        let app = XCUIApplication()
+        app.launch()
+        //sleep(2)
+        app.buttons["Button"].tap()
+        //sleep(2)
+        app.buttons["Button2"].tap()
+        let asdf = app.textFields["textfield"]
+        asdf.tap()
+        asdf.typeText("asdfasfaasfasfasfa")
+        app.buttons["Button3"].tap()
     }
 
     func testLaunchPerformance() {
