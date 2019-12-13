@@ -32,7 +32,12 @@ class UiTestUITests: XCTestCase {
         //sleep(2)
         app.buttons["Button2"].tap()
         //sleep(2)
-        app/*@START_MENU_TOKEN@*/.staticTexts["Button3"]/*[[".buttons[\"Button3\"].staticTexts[\"Button3\"]",".staticTexts[\"Button3\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+
+        let asdf = app.textFields["textfield"]
+        asdf.tap()
+        asdf.typeText("asdfasfaasfasfasfa")
+        app.buttons["Button3"].tap()
+
 
         //sleep(1)
         // UI tests must launch the application that they test
