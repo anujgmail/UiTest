@@ -15,6 +15,7 @@
 		64827A7223A261290023C95F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64827A7023A261290023C95F /* LaunchScreen.storyboard */; };
 		64827A7D23A261290023C95F /* UiTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64827A7C23A261290023C95F /* UiTestTests.swift */; };
 		64827A8823A261290023C95F /* UiTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64827A8723A261290023C95F /* UiTestUITests.swift */; };
+		64BA2AD623A3C2D60053385A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BA2AD523A3C2D60053385A /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		64827A8323A261290023C95F /* UiTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UiTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64827A8723A261290023C95F /* UiTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiTestUITests.swift; sourceTree = "<group>"; };
 		64827A8923A261290023C95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64BA2AD523A3C2D60053385A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				64827A6523A261280023C95F /* AppDelegate.swift */,
 				64827A6723A261280023C95F /* SceneDelegate.swift */,
 				64827A6923A261280023C95F /* ViewController.swift */,
+				64BA2AD523A3C2D60053385A /* ThirdViewController.swift */,
 				64827A6B23A261280023C95F /* Main.storyboard */,
 				64827A6E23A261290023C95F /* Assets.xcassets */,
 				64827A7023A261290023C95F /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				64827A6A23A261280023C95F /* ViewController.swift in Sources */,
 				64827A6623A261280023C95F /* AppDelegate.swift in Sources */,
+				64BA2AD623A3C2D60053385A /* ThirdViewController.swift in Sources */,
 				64827A6823A261280023C95F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -24,13 +24,19 @@ class UiTestUITests: XCTestCase {
     }
 
     func testExample() {
-        // UI tests must launch the application that they test
 
         let app = XCUIApplication()
         app.launch()
-        sleep(1)
+        //sleep(2)
         app.buttons["Button"].tap()
-        sleep(1)
+        //sleep(2)
+        app.buttons["Button2"].tap()
+        //sleep(2)
+        app/*@START_MENU_TOKEN@*/.staticTexts["Button3"]/*[[".buttons[\"Button3\"].staticTexts[\"Button3\"]",".staticTexts[\"Button3\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        //sleep(1)
+        // UI tests must launch the application that they test
+
+
 
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
