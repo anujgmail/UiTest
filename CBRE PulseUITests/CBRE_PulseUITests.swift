@@ -23,37 +23,13 @@ class CBRE_PulseUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testButtons() {
+    func testExample() {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
 
-        app.buttons["One"].tap()
-        sleep(2)
-        app/*@START_MENU_TOKEN@*/.staticTexts["Two"]/*[[".buttons[\"Two\"].staticTexts[\"Two\"]",".staticTexts[\"Two\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-        sleep(2)
-    }
-
-    func testTextfield() {
-        let app = XCUIApplication()
-        app.launch()
-
-        app.buttons["One"].tap()
-        sleep(2)
-        app/*@START_MENU_TOKEN@*/.staticTexts["Two"]/*[[".buttons[\"Two\"].staticTexts[\"Two\"]",".staticTexts[\"Two\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-        sleep(2)
-
-
-
-        let textField = app.textFields["TextField"]
-        textField.tap()
-        sleep(1)
-        textField.typeText("ajsflkasjflsakfj ladskfj l")
-        app/*@START_MENU_TOKEN@*/.staticTexts["Three"]/*[[".buttons[\"Three\"].staticTexts[\"Three\"]",".staticTexts[\"Three\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-        sleep(2)
-
-
-        app.alerts["Alert"].scrollViews.otherElements.buttons["Ok"].tap()
+        // Use recording to get started writing UI tests.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
     func testLaunchPerformance() {
