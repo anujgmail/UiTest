@@ -1,15 +1,15 @@
 //
-//  UiTestTests.swift
-//  UiTestTests
+//  CBRE_PulseTests.swift
+//  CBRE PulseTests
 //
-//  Created by Alok Pandey on 12/12/19.
+//  Created by Alok Pandey on 17/12/19.
 //  Copyright © 2019 CBRE. All rights reserved.
 //
 
 import XCTest
-@testable import UiTest
+@testable import CBRE_Pulse
 
-class UiTestTests: XCTestCase {
+class CBRE_PulseTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -20,7 +20,8 @@ class UiTestTests: XCTestCase {
     }
 
     func testExample() {
-
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
     func testPerformanceExample() {

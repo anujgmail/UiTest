@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  UiTest
+//  CBRE Pulse
 //
-//  Created by Alok Pandey on 12/12/19.
+//  Created by Alok Pandey on 17/12/19.
 //  Copyright © 2019 CBRE. All rights reserved.
 //
 
