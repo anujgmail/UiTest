@@ -485,7 +485,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = L595A9TKDM;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "CBRE PulseTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -510,7 +510,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = L595A9TKDM;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "CBRE PulseTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
