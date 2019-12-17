@@ -6,8 +6,28 @@
 	<dict>
 		<key>CBRE Pulse.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>645471B623A8FCE600F280B2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>645471CC23A8FCE700F280B2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>645471D723A8FCE700F280B2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
