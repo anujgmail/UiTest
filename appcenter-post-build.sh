@@ -13,7 +13,7 @@ echo "**************************************************************************
 ##################################################
 
 # variables
-appCenterLoginApiToken="9f69dd65-3ed9-4753-80ad-1dbeaeaf967d" # this comes from the build environment variables
+appCenterLoginApiToken="8a09978a-09a0-4dfa-9da8-76d581a86236" # this comes from the build environment variables
 appName="alok.pandey2/UiTest"
 deviceSetName="alok.pandey2/hostdevice"
 testSeriesName="master"
