@@ -18,7 +18,7 @@ appName="alokpandey168-gmail.com/UiTest"
 deviceSetName="alokpandey168-gmail.com/hostdevice"
 testSeriesName="master"
 appPath=$APPCENTER_OUTPUT_DIRECTORY/UiTest.ipa
-buildDirectory=$APPCENTER_SOURCE_DIRECTORY/UiTest.xcarchive
+buildDirectory=$APPCENTER_SOURCE_DIRECTORY/UiTest.xcarchive/project.xcworkspace
 
 echo ""
 echo "Start XCUITest run"
