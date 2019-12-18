@@ -13,7 +13,7 @@ echo "**************************************************************************
 ##################################################
 
 # variables
-appCenterLoginApiToken= $APP_TOKEN # this comes from the build environment variables
+appCenterLoginApiToken=$APP_TOKEN # this comes from the build environment variables
 appName="alokpandey168-gmail.com/UiTest"
 deviceSetName="alokpandey168-gmail.com/hostdevice"
 testSeriesName="master"
