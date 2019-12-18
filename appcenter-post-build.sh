@@ -30,7 +30,7 @@ xcrun xcodebuild build-for-testing \
 # variables
 appCenterLoginApiToken=$APP_TOKEN # this comes from the build environment variables
 appName="alokpandey168-gmail.com/UiTest"
-deviceSetName="alokpandey168-gmail.com/hostdevice"
+deviceSetName="alokpandey168-gmail.com/iPhone6s"
 testSeriesName="master"
 appPath=$APPCENTER_OUTPUT_DIRECTORY/UiTest.ipa
 buildDirectory="DerivedData/Build/Products/Debug-iphonesimulator"
