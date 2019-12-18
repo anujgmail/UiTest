@@ -53,7 +53,8 @@ appcenter test run xcuitest \
   --devices $deviceSetName \
   --test-series $testSeriesName \
   --locale "en_US" \
-  --build-dir $buildDirectory
+  --build-dir $buildDirectory \
+  --token $appCenterLoginApiToken
 
 ## Note: must put a space after each parameter/value pair
 #appcenter test run xcuitest --app $appName --devices $deviceSetName --app-path $appPath --test-series $testSeriesName --locale "en_US" --build-dir $buildDirectory --token $appCenterLoginApiToken
