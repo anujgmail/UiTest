@@ -45,8 +45,18 @@ echo "Source Path: $APPCENTER_SOURCE_DIRECTORY"
 echo ""
 
 echo "> Run UI test command"
-# Note: must put a space after each parameter/value pair
-appcenter test run xcuitest --app $appName --devices $deviceSetName --app-path $appPath --test-series $testSeriesName --locale "en_US" --build-dir $buildDirectory --token $appCenterLoginApiToken
+
+
+# Upload your test to App Center
+appcenter test run xcuitest \
+  --app $appName \
+  --devices $deviceSetName \
+  --test-series $testSeriesName \
+  --locale "en_US" \
+  --build-dir $buildDirectory
+
+## Note: must put a space after each parameter/value pair
+#appcenter test run xcuitest --app $appName --devices $deviceSetName --app-path $appPath --test-series $testSeriesName --locale "en_US" --build-dir $buildDirectory --token $appCenterLoginApiToken
 
 echo ""
 echo "**************************************************************************************************"
