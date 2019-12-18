@@ -13,9 +13,9 @@ echo "**************************************************************************
 ##################################################
 
 # variables
-appCenterLoginApiToken= $App_Center_Token # this comes from the build environment variables
-appName="alok.pandey2/UiTest"
-deviceSetName="alok.pandey2/hostdevice"
+appCenterLoginApiToken= $APP_TOKEN # this comes from the build environment variables
+appName="alokpandey168-gmail.com/UiTest"
+deviceSetName="alokpandey168-gmail.com/hostdevice"
 testSeriesName="master"
 appPath= $APPCENTER_OUTPUT_DIRECTORY/UiTest.ipa
 buildDirectory= $APPCENTER_SOURCE_DIRECTORY/UiTest.UITests/bin/Debug
