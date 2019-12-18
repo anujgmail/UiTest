@@ -18,7 +18,7 @@ appName="alokpandey168-gmail.com/UiTest"
 deviceSetName="alokpandey168-gmail.com/hostdevice"
 testSeriesName="master"
 appPath=$APPCENTER_OUTPUT_DIRECTORY/UiTest.ipa
-buildDirectory=$APPCENTER_OUTPUT_DIRECTORY.sym/Debug-iphonesimulator
+buildDirectory="/Users/runner/runners/2.163.1/work/1/output/test/build.sym"
 
 echo ""
 echo "Start XCUITest run"
