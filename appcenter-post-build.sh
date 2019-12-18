@@ -18,13 +18,15 @@ appName="alokpandey168-gmail.com/UiTest"
 deviceSetName="alokpandey168-gmail.com/hostdevice"
 testSeriesName="master"
 appPath=$APPCENTER_OUTPUT_DIRECTORY/UiTest.ipa
-buildDirectory=$APPCENTER_SOURCE_DIRECTORY/UiTest.UITests/bin/Debug
+buildDirectory=$APPCENTER_SOURCE_DIRECTORY/uitest/bin/Debug
 
 echo ""
 echo "Start XCUITest run"
 echo "App Name: $appName"
 echo "Device Set: $deviceSetName"
 echo "Test Series: $testSeriesName"
+echo "Path: $APPCENTER_OUTPUT_DIRECTORY"
+echo "Source Path: $APPCENTER_SOURCE_DIRECTORY"
 echo ""
 
 echo "> Run UI test command"
