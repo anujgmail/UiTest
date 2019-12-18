@@ -17,7 +17,7 @@ rm -rf DerivedData
 xcrun xcodebuild build-for-testing \
   -configuration Debug \
   -project UiTest.xcodeproj \
-  -sdk iphoneos \
+  -sdk iphonesimulator \
   -scheme UiTest \
   -derivedDataPath DerivedData
 
