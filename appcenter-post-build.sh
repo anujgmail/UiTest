@@ -9,6 +9,21 @@ echo "Post Build Script"
 echo "**************************************************************************************************"
 
 ##################################################
+# Preparing UI Tests
+##################################################
+
+# How to build a xcodeproj
+rm -rf DerivedData
+xcrun xcodebuild build-for-testing \
+  -configuration Debug \
+  -project UiTest.xcodeproj \
+  -sdk iphoneos \
+  -scheme UiTest \
+  -derivedDataPath DerivedData
+
+  xcrun xcodebuild -list
+
+##################################################
 # Start UI Tests
 ##################################################
 
