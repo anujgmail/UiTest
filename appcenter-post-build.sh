@@ -17,8 +17,8 @@ appCenterLoginApiToken=$APP_TOKEN # this comes from the build environment variab
 appName="alokpandey168-gmail.com/UiTest"
 deviceSetName="alokpandey168-gmail.com/hostdevice"
 testSeriesName="master"
-appPath= $APPCENTER_OUTPUT_DIRECTORY/UiTest.ipa
-buildDirectory= $APPCENTER_SOURCE_DIRECTORY/UiTest.UITests/bin/Debug
+appPath=$APPCENTER_OUTPUT_DIRECTORY/UiTest.ipa
+buildDirectory=$APPCENTER_SOURCE_DIRECTORY/UiTest.UITests/bin/Debug
 
 echo ""
 echo "Start XCUITest run"
