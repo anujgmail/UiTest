@@ -1,14 +1,14 @@
 //
-//  CBRE_PulseUITests.swift
-//  CBRE PulseUITests
+//  UiTestUITests.swift
+//  UiTestUITests
 //
-//  Created by Alok Pandey on 17/12/19.
+//  Created by Alok Pandey on 18/12/19.
 //  Copyright © 2019 CBRE. All rights reserved.
 //
 
 import XCTest
 
-class CBRE_PulseUITests: XCTestCase {
+class UiTestUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
