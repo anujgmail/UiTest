@@ -31,7 +31,7 @@ echo ""
 
 echo "> Run UI test command"
 # Note: must put a space after each parameter/value pair
-appcenter test run uitest --app $appName --devices $deviceSetName --app-path $appPath --test-series $testSeriesName --locale "en_US" --build-dir $buildDirectory --token $appCenterLoginApiToken
+appcenter test run xcuitest --app $appName --devices $deviceSetName --app-path $appPath --test-series $testSeriesName --locale "en_US" --build-dir $buildDirectory --token $appCenterLoginApiToken
 
 echo ""
 echo "**************************************************************************************************"
