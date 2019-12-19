@@ -20,6 +20,7 @@ xcrun xcodebuild build-for-testing \
   -sdk iphonesimulator \
   -scheme UiTest \
   -derivedDataPath DerivedData
+  --token $appCenterLoginApiToken
 
 xcrun xcodebuild -list
 
@@ -48,13 +49,13 @@ echo "> Run UI test command"
 
 
 # Upload your test to App Center
-#appcenter test run xcuitest \
-#  --app $appName \
-#  --devices $deviceSetName \
-#  --test-series $testSeriesName \
-#  --locale "en_US" \
-#  --build-dir $buildDirectory \
-#  --token $appCenterLoginApiToken
+appcenter test run xcuitest \
+  --app $appName \
+  --devices $deviceSetName \
+  --test-series $testSeriesName \
+  --locale "en_US" \
+  --build-dir $buildDirectory \
+  --token $appCenterLoginApiToken
 
 ## Note: must put a space after each parameter/value pair
 #appcenter test run xcuitest --app $appName --devices $deviceSetName --app-path $appPath --test-series $testSeriesName --locale "en_US" --build-dir $buildDirectory --token $appCenterLoginApiToken
