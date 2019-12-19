@@ -46,7 +46,6 @@ xcrun xcodebuild build-for-testing \
   -sdk iphonesimulator \
   -scheme UiTest \
   -derivedDataPath DerivedData
-  --token $appCenterLoginApiToken
 
 xcrun xcodebuild -list
 
