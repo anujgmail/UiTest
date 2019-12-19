@@ -47,7 +47,7 @@ xcrun xcodebuild build-for-testing \
   -scheme UiTest \
   -derivedDataPath DerivedData
 
-xcrun xcodebuild -list
+#xcrun xcodebuild -list
 
 # Upload your test to App Center
 appcenter test run xcuitest \
