@@ -20,7 +20,7 @@ appName="alokpandey168-gmail.com/UiTest"
 deviceSetName="alokpandey168-gmail.com/iPhone6s"
 testSeriesName="master"
 appPath=$APPCENTER_OUTPUT_DIRECTORY/UiTest.ipa
-buildDirectory="DerivedData/Build/Products/Debug-iphoneos"
+buildDirectory="DerivedData/Build/Products/Debug-iphonesimulator"
 
 echo ""
 echo "Start XCUITest run"
@@ -47,7 +47,7 @@ xcrun xcodebuild build-for-testing \
   -scheme UiTest \
   -derivedDataPath DerivedData
 
-#xcrun xcodebuild -list
+xcrun xcodebuild -list
 
 # Upload your test to App Center
 appcenter test run xcuitest \
