@@ -8,21 +8,7 @@ echo "**************************************************************************
 echo "Post Build Script"
 echo "**************************************************************************************************"
 
-##################################################
-# Preparing UI Tests
-##################################################
 
-# How to build a xcodeproj
-rm -rf DerivedData
-xcrun xcodebuild build-for-testing \
-  -configuration Debug \
-  -project UiTest.xcodeproj \
-  -sdk iphonesimulator \
-  -scheme UiTest \
-  -derivedDataPath DerivedData
-  --token $appCenterLoginApiToken
-
-xcrun xcodebuild -list
 
 ##################################################
 # Start UI Tests
@@ -47,6 +33,22 @@ echo ""
 
 echo "> Run UI test command"
 
+
+##################################################
+# Preparing UI Tests
+##################################################
+
+# How to build a xcodeproj
+rm -rf DerivedData
+xcrun xcodebuild build-for-testing \
+  -configuration Debug \
+  -project UiTest.xcodeproj \
+  -sdk iphonesimulator \
+  -scheme UiTest \
+  -derivedDataPath DerivedData
+  --token $appCenterLoginApiToken
+
+xcrun xcodebuild -list
 
 # Upload your test to App Center
 appcenter test run xcuitest \
