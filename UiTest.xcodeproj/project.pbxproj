@@ -439,7 +439,7 @@
 				DEVELOPMENT_TEAM = CFF95U88D6;
 				ENABLE_ONLY_ACTIVE_RESOURCES = NO;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
-				ENABLE_TESTABILITY = NO;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = UiTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,6 +464,7 @@
 				DEVELOPMENT_TEAM = CFF95U88D6;
 				ENABLE_ONLY_ACTIVE_RESOURCES = NO;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = UiTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -487,7 +488,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CFF95U88D6;
-				ENABLE_TESTABILITY = NO;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = UiTestTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -516,6 +517,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CFF95U88D6;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = UiTestTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -530,7 +532,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UiTest.app/UiTest";
-				VALIDATE_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "arm64 arm64e";
 			};
 			name = Release;
@@ -569,6 +571,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CFF95U88D6;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = UiTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
