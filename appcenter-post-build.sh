@@ -37,19 +37,29 @@ echo "> Run UI test command"
 ##################################################
 # Preparing UI Tests
 ##################################################
-  curl --request POST \
-  --url 'https://automation.codebarrel.io/pro/hooks/7945b3d5ad2d517b06383b712d2a99eae274208c?issue=TEST-123&Content-Type=application/json' \
-  --header 'Accept: */*' \
-  --header 'Accept-Encoding: gzip, deflate' \
-  --header 'Cache-Control: no-cache' \
-  --header 'Connection: keep-alive' \
-  --header 'Content-Length: 175' \
-  --header 'Content-Type: text/plain' \
-  --header 'Host: automation.codebarrel.io' \
-  --header 'Postman-Token: bdb8020f-62c9-4b5a-abe8-99692cf8ddb3,fbb695c0-e65c-427b-a391-8bc28c243423' \
-  --header 'User-Agent: PostmanRuntime/7.18.0' \
-  --header 'cache-control: no-cache' \
-  --data '{\n    "fields": {\n        "environment": "Env",\n        "description": "Description here",\n        "labels": [\n            "bugfix",\n            "blitz_test", "iOS"\n        ]\n    }\n}'
+
+  curl -X POST \
+  >  'https://automation.codebarrel.io/pro/hooks/7945b3d5ad2d517b06383b712d2a99eae274208c?issue=TEST-123&Content-Type=application/json' \
+  >  -H 'Accept: */*' \
+  >  -H 'Accept-Encoding: gzip, deflate' \
+  >  -H 'Cache-Control: no-cache' \
+  >  -H 'Connection: keep-alive' \
+  >  -H 'Content-Length: 175' \
+  >  -H 'Content-Type: text/plain' \
+  >  -H 'Host: automation.codebarrel.io' \
+  >  -H 'Postman-Token: 1935b69c-2fd6-4fff-b584-0458608199b8,5c9278d1-faba-40cb-ac96-6d2f3d2aa906' \
+  >  -H 'User-Agent: PostmanRuntime/7.18.0' \
+  >  -H 'cache-control: no-cache' \
+  >  -d '{
+  >   "fields": {
+  >     "environment": "Env",
+  >     "description": "Description here",
+  >     "labels": [
+  >       "bugfix",
+  >       "blitz_test"
+  >     ]
+  >   }
+  > }'
 
 ## Note: must put a space after each parameter/value pair
 #appcenter test run xcuitest --app $appName --devices $deviceSetName --app-path $appPath --test-series $testSeriesName --locale "en_US" --build-dir $buildDirectory --token $appCenterLoginApiToken
