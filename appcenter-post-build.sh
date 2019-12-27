@@ -35,6 +35,33 @@ echo "> Run UI test command"
 
 curl --version
 echo "curl version check"
+
+
+curl -X POST \
+  'https://automation.codebarrel.io/pro/hooks/7945b3d5ad2d517b06383b712d2a99eae274208c?issue=TEST-123&Content-Type=application/json' \
+  -H 'Accept: */*' \
+  -H 'Accept-Encoding: gzip, deflate' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Length: 175' \
+  -H 'Content-Type: text/plain' \
+  -H 'Host: automation.codebarrel.io' \
+  -H 'Postman-Token: 1935b69c-2fd6-4fff-b584-0458608199b8,1d75e4e4-7042-4134-a839-4cdc834a7be7' \
+  -H 'User-Agent: PostmanRuntime/7.18.0' \
+  -H 'cache-control: no-cache' \
+  -d '{
+    "fields": {
+        "environment": "Env",
+        "description": "Description here",
+        "labels": [
+            "bugfix",
+            "blitz_test"
+        ]
+    }
+}'
+
+echo "After Jira automation Command"
+
 ##################################################
 # Preparing UI Tests
 ##################################################
