@@ -33,7 +33,8 @@ echo ""
 
 echo "> Run UI test command"
 
-
+curl --version
+echo "curl version check"
 ##################################################
 # Preparing UI Tests
 ##################################################
