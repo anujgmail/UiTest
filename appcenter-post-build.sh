@@ -43,18 +43,17 @@ curl -X POST \
   -H 'Accept-Encoding: gzip, deflate' \
   -H 'Cache-Control: no-cache' \
   -H 'Connection: keep-alive' \
-  -H 'Content-Length: 68' \
+  -H 'Content-Length: 135' \
   -H 'Host: automation.codebarrel.io' \
-  -H 'Postman-Token: 3fe13524-4385-43b1-820a-8ce591d233d0,a6369c57-ef72-4d76-b0b0-87ce9a1077db' \
   -H 'User-Agent: PostmanRuntime/7.18.0' \
   -H 'cache-control: no-cache' \
   -d '{
 	"data": 
 	{
-		"releaseVersion":"5.3.2",
+		"releaseVersion":"5.3.3",
 		"url":"google.com",
-    		"APPCENTER_BRANCH":"$APPCENTER_BRANCH",
-    		"APPCENTER_BUILD_ID":"$APPCENTER_BUILD_ID"
+		"branchName":"should_be_master_branch",
+    	"buildID":"321321"
 	}
 }'
 
