@@ -58,8 +58,8 @@ curl -X POST \
 	}
 }'
 
-echo "APPCENTER_BRANCH: ${{APPCENTER_BRANCH}}"
-echo "APPCENTER_BUILD_ID: ${{APPCENTER_BUILD_ID}}"
+echo "APPCENTER_BRANCH: $APPCENTER_BRANCH"
+echo "APPCENTER_BUILD_ID: $APPCENTER_BUILD_ID"
 echo "After Jira automation Command"
 
 ##################################################
