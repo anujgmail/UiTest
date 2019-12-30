@@ -37,25 +37,16 @@ curl --version
 echo "curl version check"
 
 
-curl -X POST \
-  https://automation.codebarrel.io/pro/hooks/7945b3d5ad2d517b06383b712d2a99eae274208c \
-  -H 'Accept: */*' \
-  -H 'Accept-Encoding: gzip, deflate' \
-  -H 'Cache-Control: no-cache' \
-  -H 'Connection: keep-alive' \
-  -H 'Content-Length: 135' \
-  -H 'Host: automation.codebarrel.io' \
-  -H 'User-Agent: PostmanRuntime/7.18.0' \
-  -H 'cache-control: no-cache' \
-  -d '{
-	"data": 
-	{
-		"releaseVersion":"5.3.3",
-		"url":"google.com",
-		"branchName":"should_be_master_branch",
-    	"buildID":"321321"
-	}
-}'
+curl -X POST -H 'Content-type: application/json' \
+ --data '
+{
+	"releaseVersion":["5.3.2"],
+	"url":"google.com",
+	"branchName":["'$APPCENTER_BRANCH'"],
+	"buildID":['$APPCENTER_BUILD_ID']
+}' \
+https://automation.codebarrel.io/pro/hooks/7945b3d5ad2d517b06383b712d2a99eae274208c
+
 
 echo "APPCENTER_BRANCH: $APPCENTER_BRANCH"
 echo "APPCENTER_BUILD_ID: $APPCENTER_BUILD_ID"
