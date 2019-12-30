@@ -43,7 +43,7 @@ curl -X POST -H 'Content-type: application/json' \
 	"releaseVersion":["5.3.2"],
 	"url":"google.com",
 	"branchName":["'$APPCENTER_BRANCH'"],
-	"buildID":['$APPCENTER_BUILD_ID']
+	"buildID":["'$APPCENTER_BUILD_ID'"]
 }' \
 https://automation.codebarrel.io/pro/hooks/7945b3d5ad2d517b06383b712d2a99eae274208c
 
