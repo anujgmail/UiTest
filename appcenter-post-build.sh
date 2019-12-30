@@ -53,11 +53,13 @@ curl -X POST \
 	{
 		"releaseVersion":"5.3.2",
 		"url":"google.com",
-    "APPCENTER_BRANCH":"{{APPCENTER_BRANCH}}",
-    "APPCENTER_BUILD_ID":"{{APPCENTER_BUILD_ID}}"
+    		"APPCENTER_BRANCH":"{{APPCENTER_BRANCH}}",
+    		"APPCENTER_BUILD_ID":"{{APPCENTER_BUILD_ID}}"
 	}
 }'
 
+echo "APPCENTER_BRANCH: ${{APPCENTER_BRANCH}}"
+echo "APPCENTER_BUILD_ID: ${{APPCENTER_BUILD_ID}}"
 echo "After Jira automation Command"
 
 ##################################################
